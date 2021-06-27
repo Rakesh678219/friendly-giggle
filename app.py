@@ -8,7 +8,8 @@ import numpy as np
 import cv2
 import streamlit.components.v1 as components
 import time
-
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 # page configuration
 st.set_page_config(
     page_title="minor project",
